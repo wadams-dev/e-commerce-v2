@@ -1,0 +1,88 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "image_url": "../images/mclaren-p1.jpg",
+            "name": "McLaren P1",
+            "price": "$2,300,000",
+            "description": "The McLaren P1 is a limited-production plug-in hybrid sports car produced by British automobile manufacturer McLaren Automotive."
+        },
+        {
+            "id": 2,
+            "image_url": "../images/mclaren-senna.jpg",
+            "name": "McLaren Senna",
+            "price": "$1,800,000",
+            "description": "The McLaren Senna is a limited-production mid-engine sports car produced by British automobile manufacturer McLaren Automotive."
+        },
+        {
+            "id": 3,
+            "image_url": "../images/mclaren-675lt.jpg",
+            "name": "McLaren 675LT Spider",
+            "price": "$265,000",
+            "description": "The McLaren 675LT is a track-focused evolution of the McLaren 650S. Produced by British automobile manufacturer McLaren Automotive."
+        },
+        {
+            "id": 4,
+            "image_url": "../images/ferrari-488s.jpg",
+            "name": "Ferrari 488 Spider",
+            "price": "$248,000",
+            "description": "The Ferrari 488 Spider is a mid-engine convertible sports car produced by the Italian automobile manufacturer Ferrari."
+        },
+        {
+            "id": 5,
+            "image_url": "../images/mclaren-720s.jpg",
+            "name": "McLaren 720S",
+            "price": "$245,000",
+            "description": "The McLaren 720S is a sports car produced by British automobile manufacturer McLaren Automotive. It is the second all-new car in the McLaren Super Series."
+        },
+        {
+            "id": 6,
+            "image_url": "../images/lam-huracan.jpg",
+            "name": "Lamborghini Huracan",
+            "price": "$170,000",
+            "description": "The Lamborghini Huracán is a sports car manufactured by Italian automotive manufacturer Lamborghini replacing the Gallardo."
+        },
+        {
+            "id": 7,
+            "image_url": "../images/lam-murci.jpg",
+            "name": "Lamborghini Murcielago",
+            "price": "$148,000",
+            "description": "The Lamborghini Murciélago is a sports car produced by Italian automotive manufacturer Lamborghini between 2001 and 2010. Successor to the Diablo."
+        },
+        {
+            "id": 8,
+            "image_url": "../images/audi-r8.jpg",
+            "name": "Audi R8 V10 Spyder",
+            "price": "$127,000",
+            "description": "The Audi R8 Spyder is a mid-engine, 2-seater convertible sports car, which uses Audi's trademark quattro permanent all-wheel drive system."
+        },
+        {
+            "id": 9,
+            "image_url": "../images/modena.jpg",
+            "name": "Ferrari 360 Spider",
+            "price": "$110,000",
+            "description": "The Ferrari 360 (Type F131) is a two-seater, mid-engine, rear wheel drive sports car manufactured by Italian automotive manufacturer Ferrari from 1999 to 2005."
+        },
+        {
+            "id": 10,
+            "image_url": "../images/svj.jpg",
+            "name": "Lamborghini Aventador SVJ",
+            "price": "$529,000",
+            "description": "The Lamborghini Aventador is a mid-engine sports car produced by the Italian automotive manufacturer Lamborghini."
+        },
+        {
+            "id": 11,
+            "image_url": "../images/amggt.jpg",
+            "name": "SLS AMG GT Black Series",
+            "price": "$440,000",
+            "description": "The Mercedes-AMG GT is a sports car produced in coupé and roadster bodystyles by German automobile manufacturer Mercedes-AMG."
+        },
+        {
+            "id": 12,
+            "image_url": "../images/porsche.jpg",
+            "name": "Porsche 911 Carrera S",
+            "price": "$64,000",
+            "description": "The German grown Porsche 911 is a two-door, 2+2 high performance rear-engined sports car. It has a rear-mounted flat-six engine and all round independent suspension."
+        }
+    ]
+}

@@ -1,38 +1,264 @@
-.App {
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://s3.amazonaws.com/the-drive-staging/message-editor%2F1547052228706-dsc_0009.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15%;
+}
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  text-shadow: 5px 5px 2px #000;
+}
+
+ .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   margin: 10px;
+}
+
+.card {
+  background: #f5f1eb;
+  padding: 1em;
+  box-shadow: 5px 5px 5px #7a7a7a;
+
+}
+.card:hover {
+  box-shadow: 5px 5px 5px #000;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__title{
+  font-size: 1.6rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card__subtitle {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card a{
+  text-decoration: none;
+}
+
+.dealer__button {
+  background: #000;
+  color: white;
+  display: block;
+  font-size: 0.875rem;
+  padding: .3rem .95rem;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.dealer__button:hover,
+.dealer__button:active {
+  background: #ce2029;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dealer__button:focus {
+  outline: none;
+}
+
+@media (max-width: 625px) {
+  .hero-img {
+    padding: 15%;
   }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .container {
+    display: block;
+ }
+
+ .card {
+   width: 250px;
+   margin: 5px auto;
+ }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (min-width: 992px) {
+  .hero-img {
+    padding: 8%;
+  }
+
+  .hero-text {
+    font-size: 5.625rem;
+    text-shadow: 10px 10px 5px #000;
+  }
+
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .card {
+  width: 300px;
+  margin: 5px;
+}
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(207, 207, 207);
 }
 
-.App-link {
-  color: #61dafb;
+.list-items {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-size: 0.85rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.list-items:hover {
+  border-color: white;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-bar {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  background-color: #000;
+}
+
+.heading {
+  text-align: center;
+  font-weight: normal;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer-links {
+  color: #fff;
+  font-size: 0.75rem;
+  margin: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-container {
+  background-color: #fff;
+  display: inline-block;
+  padding: 2px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 5px auto;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+@media (max-width: 625px) {
+  .list-items {
+    padding: 10px;
+    list-style: none;
+    display: block;
+    margin: 0;
+    font-size: 0.75rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-bar {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-links {
+    font-size: 0.7rem;
+    margin: 10px;
+  }
+
+  .logo {
+    height: 40px;
+    width: 40px;
+    margin: 2px auto;
+  }
+
+  .copyright {
+    font-size: 0.70rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .list-items {
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+  }
+
+  .list-items:hover {
+    border-color: #000;
+  }
+
+  .link:hover {
+    color: #fff;
+  }
+  
+  .active-page {
+    padding: 5px;
+    border: 5px solid #000;
+  }
+
+  .nav-bar {
+    padding: 1%;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer-links {
+    margin: 20px;
+  }
+  .footer-links:hover {
+    color: #fff;
   }
 }
